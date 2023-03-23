@@ -22,10 +22,10 @@ To use this API, you will need:
 
 If an error occurs, the status field will be set to "error", and the message field will contain an error message.
 
-POST /mint: Mint non-fungible tokens (NFTs)
+POST /mint: Mint non-fungible tokens (NFTs)  
 Request body: { "tokenId": "<TOKEN_ID>", "recipient": "<RECIPIENT_ADDRESS>" }
 
-POST /transfer: Transfer non-fungible tokens (NFTs)
+POST /transfer: Transfer non-fungible tokens (NFTs)  
 Request body: { "tokenId": "<TOKEN_ID>", "recipient": "<RECIPIENT_ADDRESS>" }
 
 # License
