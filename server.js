@@ -76,7 +76,7 @@ app.post('/transfer', async (req, res) => {
 
 // API endpoint for the root URL
 app.get('/', (req, res) => {
-  res.send('Welcome to the Casper API Connector!');
+  res.send('👻 Welcome to the Award Pool x Casper API Connector!');
 });
 
 // Start the server
